@@ -1,0 +1,20 @@
+{
+  "name": "pixi-v6-typescript-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pixi.js": "^6.0.0-X"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  }
+}
