@@ -12,7 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "pixi.js": "^6.0.0-X"
+    "pixi.js": "^6.0.0"
   },
   "devDependencies": {
     "typescript": "^4.2.2"
