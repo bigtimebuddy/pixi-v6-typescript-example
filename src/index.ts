@@ -1,9 +1,6 @@
-import { Container, Loader, Renderer } from 'pixi.js';
+import { Container } from 'pixi.js';
 
-class Container2 extends Container {
-    public render(renderer: Renderer) {
-        super.render(renderer);
-    }
-}
-
-Loader.shared.add('blah', './pathTofile.js');
+const btn = new Container();
+btn.interactive = true;
+btn.buttonMode = true;
+btn.on('click', ev => console.log('btn.click', {ev}));
